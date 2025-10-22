@@ -8,7 +8,7 @@ describe('My Second Test Suite', function () {
 
         //it is possible to select entire row direct so we need to write code
         // tr td:nth-child(2)..here tr is parent tag, then td is child tag, 
-        // then to number we use: nthchild(number) --VVI
+        // then to number we use: nth-child(number) --VVI
 
         cy.get('tr td:nth-child(2)').each(($e1, index, $list) => {
             //we need to use each in order to find the match in the table

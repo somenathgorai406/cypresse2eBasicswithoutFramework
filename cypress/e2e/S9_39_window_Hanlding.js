@@ -7,7 +7,7 @@ describe('Test Suite 3: Dropdown, Radio button, Checkbox and Assetions', () => {
 
         //cy.get('#openwindow').click();
         cy.get('#opentab').then((el) => {
-            const url = el.prop('href');
+            const url = el.prop('href'); //href attribute value is stored in url
             cy.visit(url);
 
             // use origin

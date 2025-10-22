@@ -30,8 +30,6 @@ describe('Test Suite 3: Dropdown, Radio button, Checkbox and Assetions', () => {
             cy.get('.mt-50 h2').should('contain', 'Welcome to');
             cy.get('.mt-50 h2').should('include.text', 'QAClick');
             //cy.get('.mt-50 h2').should('include', 'QAClick'); working in url but here it is not working
-
-
         })
     })
 })
