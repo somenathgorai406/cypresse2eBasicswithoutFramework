@@ -35,7 +35,7 @@ describe('Handle Tables', (() => {
         cy.get("table[class='table table-bordered table-hover']>tbody>tr")
             .each(($row, index, $rows) => {
 
-                cy.wrap($row).within(() => {
+                cy.wrap($row).within(() => { //cy.wrap() to work with jquery object
 
                     cy.get('td').each(($col, index, $cols) => {
                         cy.log($col.text());

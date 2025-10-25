@@ -11,7 +11,9 @@ describe('static dropdown', () => {
         //.should('have.text', 'France') //failed
     })
 
-    //working //if select tag is not used
+    //working 
+    //if select tag is not used
+    //type the name and enter
     it('Dropdown without select', function () {
         cy.visit('https://www.dummyticket.com/dummy-ticket-for-visa-application/')
 
